@@ -1,0 +1,49 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  transition: background-color 0.15s;
+}
+
+.item:first-child {
+  border-top: 1px solid var(--color-border);
+}
+
+.item:hover {
+  background-color: #f0f0ec;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.97rem;
+}
+
+.number {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.deleteBtn {
+  padding: 0.3rem 0.75rem;
+  background: transparent;
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.deleteBtn:hover {
+  background-color: var(--color-danger);
+  color: #fff;
+}

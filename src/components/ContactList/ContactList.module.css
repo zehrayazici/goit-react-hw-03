@@ -1,0 +1,14 @@
+.list {
+  list-style: none;
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.empty {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+}
