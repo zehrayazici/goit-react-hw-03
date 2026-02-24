@@ -37,6 +37,7 @@ export default function ContactForm({ onSubmit }) {
               name="name"
               type="text"
               placeholder="John Doe"
+              autoComplete="name"
               className={styles.input}
             />
             <ErrorMessage name="name" component="span" className={styles.error} />
@@ -51,6 +52,7 @@ export default function ContactForm({ onSubmit }) {
               name="number"
               type="tel"
               placeholder="+1 (555) 123-4567"
+              autoComplete="tel"
               className={styles.input}
             />
             <ErrorMessage name="number" component="span" className={styles.error} />
