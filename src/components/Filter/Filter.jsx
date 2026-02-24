@@ -7,6 +7,7 @@ export default function Filter({ value, onChange }) {
         type="text"
         value={value}
         onChange={onChange}
+        name="search"
         placeholder="search.."
         className={styles.input}
       />
