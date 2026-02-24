@@ -8,6 +8,7 @@ export default function Filter({ value, onChange }) {
         value={value}
         onChange={onChange}
         name="search"
+        autoComplete="off"
         placeholder="search.."
         className={styles.input}
       />
